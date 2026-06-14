@@ -1,0 +1,10 @@
+App(
+    appid="custom_subghz_raw",
+    name="SubGhz Custom RAW",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="custom_subghz_main",
+    cdefines=["APP_CUSTOM_SUBGHZ"],
+    requires=["gui"],
+    stack_size=2 * 1024,
+    order=10,
+    fap_category="Sub-GHz",
